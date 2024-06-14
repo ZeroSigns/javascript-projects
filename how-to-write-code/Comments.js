@@ -10,3 +10,6 @@
    comments. */
 
    console.log("Comments make your code more readable by others.");
+   const input = require('readline-sync');
+   let name = input.question('What is your name: ');
+   console.log("Hello " + name);
